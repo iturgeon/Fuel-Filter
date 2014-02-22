@@ -13,11 +13,6 @@ class Filter
 		return self::$_instance;
 	}
 
-	public function __construct()
-	{
-		trace('NEW FILTER');
-	}
-
 	public static function process($string)
 	{
 		return $string;
