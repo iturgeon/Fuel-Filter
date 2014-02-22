@@ -14,7 +14,7 @@ class View extends \Fuel\Core\View
 
 		foreach ($filters as $key => $filter)
 		{
-			if ( ! $filter instanceof ViewFilter)
+			if ( ! $filter instanceof Filter)
 			{
 				throw new \FuelException("View Filter {$key} is not ViewFilter class");
 			}
