@@ -1,5 +1,5 @@
 {
-    "name": "revin/fuel-filter",
+    "name": "iturgeon/fuelfilter",
     "description": "Allows View Filtering with custom filters in FuelPHP framework",
     "keywords": ["fuelphp", "view", "filter"],
     "homepage": "https://github.com/iturgeon/Fuel-Filter",
