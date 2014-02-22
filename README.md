@@ -46,3 +46,25 @@ Usage:
 	$view->add_filters(ReverseFilter::forge());
 	echo($view);
 ```
+
+Installation
+================
+
+The easiest way to install in Fuel is to use composer.
+
+
+1. Add `"iturgeon/fuelfilter" : "1.0.*"` to your require section in composer.json
+2. Add `{"type": "vcs","url": "https://github.com/iturgeon/Fuel-Filter.git"}` to your repository section in composer.json
+3. Run `php composer.phar update`
+
+Sample Section of composer.json:
+
+```
+"require": {
+    ...
+    "iturgeon/fuelfilter" : "1.0.*"
+}
+"repositories": [
+    {"type": "vcs","url": "https://github.com/iturgeon/Fuel-Filter.git"}
+],
+```
